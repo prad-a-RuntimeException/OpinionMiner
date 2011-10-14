@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <description>General configuration. Should use auto wiring if single type is detected.</description>
+
+
+    <context:load-time-weaver weaver-class="org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver"/>
+
+    <context:component-scan base-package="org.mdacc.ris.elucidator.neuralnetwork"/>
+
+
+    <bean id="applicationProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:opinioncrawler.properties</value>
+                <value>classpath:TestResources.properties</value>
+            </list>
+        </property>
+        <property name="ignoreResourceNotFound" value="true"/>
+        <property name="ignoreUnresolvablePlaceholders" value="true"/>
+    </bean>
+
+    <bean id="articleReader"
+          class="org.mdacc.ris.sourcereader.impl.XmlReaderImpl">
+    </bean>
+
+    <bean id="relationalSimilarityMatrix"
+          class="org.mdacc.ris.elucidator.neuralnetwork.clustering.RelationalSimilarityMatrix">
+
+        <constructor-arg name="taxonomicalSimilarityMatrix" ref="taxonomicalSimilarityMatrix">
+        </constructor-arg>
+        <constructor-arg name="classLevelThreshold" value="3">
+        </constructor-arg>
+    </bean>
+
+
+</beans>
