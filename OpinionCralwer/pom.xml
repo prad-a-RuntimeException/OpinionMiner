@@ -15,6 +15,15 @@
         need to perform runtime customization of the crawling parameter.
     </description>
 
+    <developers>
+        <developer>
+            <id>Praju</id>
+            <name>Pradheep Raju</name>
+            <email>degreeofchange180@gmail.com</email>
+        </developer>
+
+    </developers>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,6 +54,23 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.nutch</groupId>
+            <artifactId>nutch</artifactId>
+            <version>1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-core</artifactId>
+            <version>0.20.2</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-test</artifactId>
+            <version>0.20.2</version>
+            <optional>true</optional>
+        </dependency>
 
         <!--Custom Dependencies-->
 

@@ -19,9 +19,9 @@ package com.exitcode.opinioncrawler.crawler;
 public interface MainCrawler {
 
 
-    void performSeeding();
+    void performSeeding(String crawlDbName, String urlDirectory);
 
-    void performFetching();
+    void performFetching(String crawlDb, String segmentDir);
 
     void parseFetchedContent();
 

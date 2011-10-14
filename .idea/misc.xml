@@ -25,6 +25,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/OpinionCralwer/pom.xml" />
+        <option value="$PROJECT_DIR$/../Nutch1.3/pom.xml" />
       </list>
     </option>
   </component>

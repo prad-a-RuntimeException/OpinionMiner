@@ -1,0 +1,47 @@
+17:42:50 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:22:13 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:22:13 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - null
+18:23:22 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:23:22 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - null
+18:24:11 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:24:11 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - null
+18:25:23 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:25:23 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - null
+18:25:59 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:25:59 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - null
+18:27:21 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:27:21 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - 65536
+18:27:37 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:27:37 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - 65536
+18:33:21 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+18:33:21 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - 65536
+19:06:43 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:13:33 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:13:33 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls
+19:14:06 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:14:06 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls
+19:15:57 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:15:57 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls/
+19:15:57 [main]            INFO  c.e.o.crawler.MainCrawlerImpl - The urldir /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls is a directory true
+19:16:22 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:16:22 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls/
+19:16:22 [main]            INFO  c.e.o.crawler.MainCrawlerImpl - The urldir /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls is a directory true
+19:37:11 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:37:11 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls/
+19:39:35 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+19:39:35 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - 65536
+19:39:35 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - plugins
+19:40:12 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+19:40:12 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - 65536
+19:40:12 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - plugins
+19:40:50 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - mangoAgent
+19:40:50 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - 65536
+19:40:50 [main]            INFO  c.e.o.c.NutchConfigurationCreatorTest - Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/main/resources/plugins
+19:41:16 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:41:16 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls/
+19:41:16 [main]            INFO  c.e.o.crawler.MainCrawlerImpl - The urldir /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls is a directory true
+19:42:04 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:42:04 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/test/resources/urls/
+19:42:26 [main]            INFO  c.e.o.c.MainCrawlerImplTest - Entering testPerformSeeding
+19:42:26 [main]            INFO  c.e.o.c.MainCrawlerImplTest - The valid url directory is /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/main/resources/urls
+19:42:26 [main]            INFO  c.e.o.crawler.MainCrawlerImpl - The urldir /Users/pradheepraju/projects/OpinionMiner/OpinionCralwer/src/main/resources/urls is a directory true

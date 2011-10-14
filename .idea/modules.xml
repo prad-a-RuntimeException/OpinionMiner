@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OpinionCralwer/OpinionCralwer.iml" filepath="$PROJECT_DIR$/OpinionCralwer/OpinionCralwer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Nutch1.3/nutch.iml" filepath="$PROJECT_DIR$/../Nutch1.3/nutch.iml" />
     </modules>
   </component>
 </project>
